@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #111010;
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    margin: auto;
+}
+
+.project-list li {
+    background: rgb(253, 243, 243);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-list li a {
+    text-decoration: none;
+    color: #46a8e9;
+    font-weight: bold;
+}
+
+.project-list li a:hover {
+    color: #0056b3;
+}
